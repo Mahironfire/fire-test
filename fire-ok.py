@@ -415,11 +415,11 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\n \x1b[1;95m [1] File Cloning")
-		print(" \x1b[1;95m [2] Public Cloning")
-		print(" \x1b[1;95m [3] 2009-10 Cloning")
-		print(" \x1b[1;95m [4] 2011-14 Cloning")
-		print(" \x1b[1;95m [E] Exit Programming\n")
+		print("\n \x1b[1;93m [1] File Cloning")
+		print(" \x1b[1;96m [2] Public Cloning")
+		print(" \x1b[1;91m [3] 2009-10 Cloning")
+		print(" \x1b[1;98m [4] 2011-14 Cloning")
+		print(" \x1b[1;94m [E] Exit Programming\n")
 		MAHIR =input(" Choose : ")
 		if MAHIR in ["1", "01"]:
 			File()
