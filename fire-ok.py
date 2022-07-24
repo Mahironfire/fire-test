@@ -387,7 +387,7 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
+logo = ("""\033[1;96m
        
  __  __       _     _       __      __   _
  |  \/  |     | |   (_)      \ \    / /  (_)
@@ -397,15 +397,15 @@ logo = ("""\033[1;32m
  |_|  |_|\__,_|_| |_|_|_|        \/ \__,_|_| \033
 __________________(◕‿◕)______________________
   
-  Auther   :  MAHIR TAHSAN
+  AUTHOR   :  MAHIR TAHSAN
  
-  Github   :  Mahironfire
+  GITHUB   :  Mahironfire
 
-  Facebook :  Mahir Tahsan 
+  FACEBOOK :  Mahir Tahsan 
   
-  Status   :  Free 🙃🤙
+  STATUS   :  FREE
 
-__________________(◕‿◕)______________________\033[1;37m""")
+__________________(◕‿◕)______________________\033[1;94m""")
 
 class Main:
 	def __init__(self):
